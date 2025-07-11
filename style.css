@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(117, 117, 117);
+}
+#butt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    background-color: gray;
+    justify-content: space-between; 
+    text-align: center;
+    margin: 8px;
+    padding:10px;
+    border-radius: 50px;
+}
+button{
+    background-color: gray;
+    border: none;
+    color: white; 
+}
+button:hover{
+ 
+    background-color: rgb(67, 115, 155);
+    border-radius: 10px;
+}
+.para{
+    display: flex;
+    margin: 8px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color:rgb(67, 115, 155) ;
+    width: 500px;
+    
+}
